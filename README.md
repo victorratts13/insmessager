@@ -9,4 +9,5 @@ você primeiramete precisa configurar maualmete os dois arquivos que fazem a dev
 
 após cofigurar devidamente os arquivos, faça o upload para o host.
 
+** não esqueça de importar as tabelas users.sql e menssage.sql no seu banco de dados.**
 [Version 1.0]
