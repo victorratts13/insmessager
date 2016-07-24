@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* 
+chat 1.0 
+versão de avaliação
+open source
+Autor: victor Ratts
+Ano: 2016
+
+ */
+/* responsavel pela imagem de fundo do body */
+.back-img{
+	background-image:url(../core/img/bg6.png);/* escolha a imagem de fundo */
+	background-color:rgba(250,50,200,0.8);/*remova ou autere a cor de fundo caso queira. */
+	background-attachment:fixed;
+	background-size:100%;
+}
+/* responsavel pela div lateral */
+.div-class{
+	background-color:rgba(0,0,0,0.6);
+	background-attachment:fixed;
+	position:absolute;
+	left:0;
+	height:100%;
+	width:30%;
+
+}
+/* responsavel pelo texto da div lateral */
+.div-text{
+	text-align:center;
+	padding:25%;
+	padding-top:50px;
+	color:rgba(250,250,250,1);
+	
+}
+/* responsavel pela div do app.php topo */
+.div-top{
+	color:#000;
+	background-color:rgba(255,255,204,0.9);
+	background-attachment:fixed;
+	position:absolute;
+	left:30%;
+	height:10%;
+	width:70%;
+	padding:10px;
+}
+.chat-content{
+	background-color:rgba(250,250,250,1);
+	position:absolute;
+    top:10%;
+	left:30%;
+	height:90%;
+	width:42%;
+	padding:5px;
+}
+/* responsavel pela logo */
+.h-logo{
+	text-align:center;
+	
+}
+/* responsavel pelo chat.php */
+.send-result{
+
+	width:100%;
+	height:95%;
+	overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+.space{
+	letter-spacing:2px;
+}
+.index-content{
+	position:absolute;
+	left:50%;
+	right:0%;
+	padding-top:16%;
+}
+.auth-div{
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	left:25%;
+	height:100%;
+	width:50%;
+	padding:150px;
+}
+.div-last{
+	background-color:rgba(250,250,240,1);
+	position:absolute;
+    top:10%;
+	right:50%;
+	left:72%;
+	height:90%;
+	width:28%;
+}
+.perfil-img{
+	background-color:#02a3c7;
+	background-image:url(../core/img/logo2.png);
+	background-size:100%;
+	height:150px;
+	width:150px;
+	border-radius:100%;
+}
+.div-index{
+	text-align:center;
+	padding:25%;
+	padding-top:250px;
+	color:rgba(250,250,250,1);
+}

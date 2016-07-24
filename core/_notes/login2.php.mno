@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_up" value="name:online;datatype:string" />
+	<infoitem key="UD_set" value="name:id;datatype:int" />
+	<infoitem key="UD_tet" value="name:online;datatype:string" />
+</info>
